@@ -6,12 +6,9 @@ import shoe21 from "./images/shoe21.jpg"
 import shoe3 from "./images/shoe3.jpg"
 import shoe12 from "./images/shoe12.jpg"
 import shoe10 from "./images/shoe10.jpg"
+import "./Login.css"
 
-
-const Home = () => {
-
-
-    return (
+const Home = () => { return (
         <>
 
             <div className="main">
@@ -23,8 +20,10 @@ const Home = () => {
                         the people and the planet.</p>
                     <NavLink to="./product"><button className="explore-btn">Explore..</button></NavLink>
                 </div>
-                {/* <img src={mainImg} alt="" id="mainImage"></img> */}
-                <img src={mainImg} />
+
+                <img src={mainImg} alt="" id="mainImage"></img>
+            
+
             </div>
 
             <div className="featured">

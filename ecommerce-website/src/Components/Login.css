@@ -32,5 +32,30 @@
   }
   button:hover {
     background-color: #45a049;
+  /* margin-top:50px; */
+}
+.carousel-inner {
+  height: 50px;
+}
+.carousel-item {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  filter: invert(1);
+}
+
+@media (max-width: 767.98px) 
+{
+  .carousel-inner {
+    height: 300px;
   }
-  
+}
